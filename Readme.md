@@ -1,0 +1,1 @@
+Cronômetro simples feito com html, css e js. O processo não foi tão trabalhoso e para fazê-lo peguei ajuda de alguns vídeos do youtube por não ter tanto conhecimento em js.

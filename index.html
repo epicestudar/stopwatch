@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cronômetro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="tituloCima">
+        <h1>CRONÔMETRO:</h1>
+    </div>
+
+    <section class="cronometro">
+        <div class="containerCronometro">
+
+            <div class="tempoCronometro">
+                <h1 id="time">00:00:00</h1>
+            </div>
+
+
+
+            <section class="botoesCronometro">
+                <button class="start-btn" onclick="start()">start</button>
+                <button class="pause-btn" onclick="pause()">pause</button>
+                <button class="stop-btn" onclick="stop()">stop</button>
+            </section>
+        </div>
+    </section>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>

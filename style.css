@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    background-color: #F39696;
+}
+
+.tituloCima{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    font-family: 'Londrina Solid', cursive;
+    letter-spacing: 1px;
+    font-size: 2rem;
+}
+
+.containerCronometro{
+    margin-top: 3%;
+    background: #5F6494;
+    height: 50vh;
+    width:50%;
+    min-height: 50vh;
+    max-width: 800px;
+    
+}
+.cronometro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tempoCronometro{
+    margin-top: 17%;
+    text-align: center;
+    font-size: 2.8rem;
+    color: white;
+}
+
+/* Estilo para os botões */
+.botoesCronometro{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    align-items: center;
+}
+.start-btn {
+    background-color: #8FF299;
+    color: black;
+    border: none;
+    padding: 1rem 1.8rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Londrina Solid', cursive;
+}
+
+/* Estilize o hover (quando o mouse está sobre o botão) */
+.start-btn:hover {
+    background-color: #6bb373;
+    color: white;
+}
+
+.pause-btn{
+    background-color: #8fe6f2;
+    color: black;
+    border: none;
+    padding: 1rem 1.8rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Londrina Solid', cursive;
+}
+
+.pause-btn:hover{
+    background-color: #65a5ad;
+    color: white;
+}
+
+.stop-btn{
+    background-color: #e78b8b;
+    color: black;
+    border: none;
+    padding: 1rem 1.8rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Londrina Solid', cursive;
+}
+
+.stop-btn:hover{
+    background-color: #995c5c;
+    color: white;
+}
+
+/* Estilos para telas grandes */
+/* ... (seus estilos anteriores) ... */
+
+/* Media query para telas médias (tablets, etc.) */
+@media (max-width: 1024px) {
+    .containerCronometro {
+        width: 90%; /* Reduza um pouco a largura para telas médias */
+    }
+
+    .tempoCronometro {
+        font-size: 1.5rem; /* Reduza o tamanho da fonte para telas médias */
+    }
+}
+
+/* Media query para telas pequenas (smartphones, etc.) */
+@media (max-width: 768px) {
+    .containerCronometro {
+        width: 95%; /* Reduza ainda mais a largura para telas pequenas */
+        height: 40vh; /* Reduza a altura para telas pequenas */
+    }
+
+    .tempoCronometro {
+        margin-top: 28%;
+        font-size: 2rem; /* Reduza ainda mais o tamanho da fonte para telas pequenas */
+    }
+
+    /* Ajustes adicionais para os botões */
+    .start-btn,
+    .pause-btn,
+    .stop-btn {
+        padding: 0.7rem 1.1rem; /* Ajuste para tamanhos de tela ainda menores */
+        font-size: 1.5rem; /* Ajuste para tamanhos de tela ainda menores */
+    }
+}
